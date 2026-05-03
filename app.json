@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Pet Profile",
+    "slug": "pet-profile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "petprofile",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.qaiser_waheed.petprofile"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-dev-client",
+      "expo-router",
+      "expo-secure-store"
+    ]
+  }
+}
